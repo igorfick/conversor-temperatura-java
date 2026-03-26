@@ -1,0 +1,12 @@
+# arquivos compilados
+*.class
+
+# pasta de build do eclipse
+bin/
+
+# configurações do eclipse
+.settings/
+
+# arquivos de sistema
+.DS_Store
+Thumbs.db
