@@ -1,6 +1,8 @@
 package com.igor.conversor;
 import java.util.Scanner;
 
+import com.igor.conversor.service.TemperatureConverter;
+
 public class Main {
 	
 	public static void main(String[] args) {

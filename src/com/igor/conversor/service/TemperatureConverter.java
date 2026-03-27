@@ -1,4 +1,4 @@
-package com.igor.conversor;
+package com.igor.conversor.service;
 
 public class TemperatureConverter {
 	
