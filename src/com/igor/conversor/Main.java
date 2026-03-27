@@ -1,3 +1,4 @@
+package com.igor.conversor;
 import java.util.Scanner;
 
 public class Main {

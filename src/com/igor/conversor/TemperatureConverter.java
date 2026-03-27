@@ -1,3 +1,4 @@
+package com.igor.conversor;
 
 public class TemperatureConverter {
 	
