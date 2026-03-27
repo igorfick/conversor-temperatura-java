@@ -23,7 +23,7 @@ public class Main {
 				System.out.print("Digite a temperatura em Celsius: ");
 				double c1 = sc.nextDouble();
 				
-				double f = converterParaFahrenheit(c1);
+				double f = TemperatureConverter.converterParaFahrenheit(c1);
 				System.out.println("Resultado " + f + " Fahrenheit");
 				break;
 				
@@ -31,8 +31,8 @@ public class Main {
 				System.out.print("Digite a temperatura em Celsius: ");
 				double c2 = sc.nextDouble();
 				
-				double k = converterParaFahrenheit(c2);
-				System.out.println("Resultado " + k + " Fahrenheit");	
+				double k = TemperatureConverter.converterParaKelvin(c2);
+				System.out.println("Resultado " + k + " Kelvin");	
 				break;
 				
 			case 3:
@@ -44,12 +44,5 @@ public class Main {
 			}
 		}
 		sc.close();		
-	}
-	
-	public static double converterParaFahrenheit(double celsius) {
-		return (celsius * 9 / 5) + 32;
-	}
-	public static double converterParaKelvin(double celsius) {
-		return celsius + 273.15;
 	}
 }
